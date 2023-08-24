@@ -10,15 +10,16 @@
     <div class="container">
         <div class="title">
             <h1>Mes contacts</h1>
-            <button class="btn-primary">Ajouter</button>
+            <button id="btn-add" class="btn-primary">Ajouter</button>
         </div>
 
         <div class="row">
             <div class="col">
-                <div class="contact-list">
-                    <div class="contact-item">
+                <div class="contact-list" id="">
+                    <!--<div class="contact-item">
                         <div class="profile">
-                            <img src=""  alt=""></div>
+                            <img src=""  alt="">
+                        </div>
 
                     </div>
                     <div class="info">
@@ -30,18 +31,79 @@
                     </div>
                     <div class="actions">
                         <button class="btn-neutre">
-                            <i class="bi-p"></i>
+                            <i class="bi-p">Modifier</i>
                         </button>
                         <button class="btn-danger">
-                            <i class="bi-t"></i>
+                            <i class="bi-t">Supprimer</i>
                         </button>
-                    </div>
+                    </div> -->
                 </div>
 
             </div>
 
             <div class="col">
-                
+                <div id="form" class="for-add">
+                    <h2>Ajouter un contact</h2>
+                    <form action="">
+                        <div class="row">
+                            <div class="col-6">
+                                <label for="" class="form-label">Nom</label>
+                                <input type="text" id="name" name="name" class="form-control">
+                            </div>
+
+                            <div class="col-6">
+                                <label for="" class="form-label">Prenom</label>
+                                <input type="text" id="prenom" class="form-control">
+                            </div>
+
+                            <div class="col-6">
+                                <label for="" class="form-label">Pays</label>
+                                <select id="pays"  class="form-control">
+                                    <option value="Angola">Angola</option>
+                                    <option value="Burkina Faso">Burkina Faso</option>
+                                    <option value="Egypt">Egypt</option>
+                                    <option value="Tunisie">Tunisie</option>
+                                    <option value="RDC">RDC</option>
+                                    <option value="Maroc">Maroc</option>
+                                    <option value="Tanzani">Tanzani</option>
+
+                            </div>
+
+                            <div class="col-6">
+                                <label for="" class="form-label">Genre</label>
+                                <select id="gender" class="form-control">
+                                    <option value="Femme">Femme</option>
+                                    <option value="Homme">Homme</option>
+                            </div>
+
+                            <div class="col-6">
+                                <label for="" class="form-label">E-mail</label>
+                                <input type="email" id="email" class="form-control">
+                            </div>
+
+                            <div class="col-6">
+                                <label for="" class="form-label">Telephone</label>
+                                <input type="tel" id="phone" class="form-control">
+                            </div>
+
+                            <div class="col-6">
+                                <label for="" class="form-label">Date de naissance</label>
+                                <input type="date" id="birthday" class="form-control">
+                            </div>
+
+                            <div class="col-6">
+                                <label for="" class="form-label">Avatar</label>
+                                <input type="file" accept="*.png" class="form-control">
+                            </div>
+                            <div>
+                                <button id="btn-sumit" type="submit" class="btn-primary">Ajouter ce contact</button>
+                                <button type="reset" class="btn-secondary">Annuler</button>
+
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
             </div>
         </div>
     
