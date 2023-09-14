@@ -1,0 +1,38 @@
+/**{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    color: #aaa;
+}
+
+h2{
+    color: #aaa;
+}
+
+.row1{
+
+}
+
+.container{
+    display: flex;
+     
+}
+
+.title {
+
+    margin: 50px 70px;
+    
+}
+
+.row1{
+   
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+*/
+
